@@ -1,0 +1,25 @@
+[0.382s] Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/src/project_nodes': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_nodes build --build-base /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build install --record /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/install.log --single-version-externally-managed install_data
+[0.543s] running egg_info
+[0.543s] writing ../../build/project_nodes/project_nodes.egg-info/PKG-INFO
+[0.545s] writing dependency_links to ../../build/project_nodes/project_nodes.egg-info/dependency_links.txt
+[0.545s] writing entry points to ../../build/project_nodes/project_nodes.egg-info/entry_points.txt
+[0.546s] writing requirements to ../../build/project_nodes/project_nodes.egg-info/requires.txt
+[0.546s] writing top-level names to ../../build/project_nodes/project_nodes.egg-info/top_level.txt
+[0.547s] reading manifest file '../../build/project_nodes/project_nodes.egg-info/SOURCES.txt'
+[0.548s] writing manifest file '../../build/project_nodes/project_nodes.egg-info/SOURCES.txt'
+[0.548s] running build
+[0.548s] running build_py
+[0.549s] copying project_nodes/turtle_commander.py -> /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes
+[0.549s] running install
+[0.549s] running install_lib
+[0.551s] copying /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes/turtle_commander.py -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes
+[0.551s] byte-compiling /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes/turtle_commander.py to turtle_commander.cpython-310.pyc
+[0.553s] running install_data
+[0.553s] running install_egg_info
+[0.558s] removing '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[0.558s] Copying ../../build/project_nodes/project_nodes.egg-info to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes-0.0.0-py3.10.egg-info
+[0.558s] running install_scripts
+[0.570s] Installing shape_node script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.570s] Installing turtle_commander script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.570s] writing list of installed files to '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/install.log'
+[0.590s] Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/src/project_nodes' returned '0': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_nodes build --build-base /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build install --record /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/install.log --single-version-externally-managed install_data

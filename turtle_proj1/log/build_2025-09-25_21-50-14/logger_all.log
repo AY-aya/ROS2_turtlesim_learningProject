@@ -1,0 +1,202 @@
+[0.306s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.306s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d3e833d7df0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d3e833d7250>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d3e833d7250>>)
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.553s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ayasx9/arl_workshop/turtle_proj1'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_launch_pkg) by extension 'ros'
+[0.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_launch_pkg' with type 'ros.ament_cmake' and name 'my_launch_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/project_nodes) by extension 'ros'
+[0.578s] DEBUG:colcon.colcon_core.package_identification:Package 'src/project_nodes' with type 'ros.ament_python' and name 'project_nodes'
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.609s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ayasx9/arl_workshop/turtle_proj1/install
+[0.610s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ayasx9/ros2_proj1/install
+[0.610s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'project_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'project_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes', 'merge_install': False, 'path': '/home/ayasx9/arl_workshop/turtle_proj1/src/project_nodes', 'symlink_install': True, 'test_result_base': None}
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'my_launch_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'my_launch_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg', 'merge_install': False, 'path': '/home/ayasx9/arl_workshop/turtle_proj1/src/my_launch_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.644s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.645s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.646s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ayasx9/arl_workshop/turtle_proj1/src/project_nodes' with build type 'ament_python'
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_nodes', 'ament_prefix_path')
+[0.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/hook/ament_prefix_path.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/hook/ament_prefix_path.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/hook/ament_prefix_path.sh'
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.827s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ayasx9/arl_workshop/turtle_proj1/src/project_nodes'
+[0.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.257s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/ament_index/resource_index/packages/project_nodes
+[1.257s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/package.xml
+[1.257s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes/shape_node
+[1.257s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes/turtle_commander
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build --no-deps symlink_data --force
+[1.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_nodes', 'pythonpath_develop')
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/share/project_nodes/hook/pythonpath_develop.ps1'
+[1.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes' returned '0': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build --no-deps symlink_data --force
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/share/project_nodes/hook/pythonpath_develop.dsv'
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/share/project_nodes/hook/pythonpath_develop.sh'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes' for CMake module files
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes' for CMake config files
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/bin'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/pkgconfig/project_nodes.pc'
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages'
+[1.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('project_nodes', 'pythonpath')
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/hook/pythonpath.ps1'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/hook/pythonpath.dsv'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/hook/pythonpath.sh'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/bin'
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(project_nodes)
+[1.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/package.ps1'
+[1.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/package.dsv'
+[1.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/package.sh'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/package.bash'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes/package.zsh'
+[1.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/colcon-core/packages/project_nodes)
+[1.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ayasx9/arl_workshop/turtle_proj1/src/my_launch_pkg' with build type 'ament_cmake'
+[1.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ayasx9/arl_workshop/turtle_proj1/src/my_launch_pkg'
+[1.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes:${PYTHONPATH} /usr/bin/cmake /home/ayasx9/arl_workshop/turtle_proj1/src/my_launch_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg
+[1.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg' returned '0': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes:${PYTHONPATH} /usr/bin/cmake /home/ayasx9/arl_workshop/turtle_proj1/src/my_launch_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes:${PYTHONPATH} /usr/bin/cmake --build /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg -- -j12 -l12
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg' returned '0': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes:${PYTHONPATH} /usr/bin/cmake --build /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg -- -j12 -l12
+[1.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes:${PYTHONPATH} /usr/bin/cmake --install /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg
+[2.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_launch_pkg)
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg' for CMake module files
+[2.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg' returned '0': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes:${PYTHONPATH} /usr/bin/cmake --install /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg' for CMake config files
+[2.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_launch_pkg', 'cmake_prefix_path')
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/hook/cmake_prefix_path.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/hook/cmake_prefix_path.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/hook/cmake_prefix_path.sh'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/bin'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/lib/pkgconfig/my_launch_pkg.pc'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/lib/python3.10/site-packages'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/bin'
+[2.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.sh'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.bash'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.zsh'
+[2.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/colcon-core/packages/my_launch_pkg)
+[2.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_launch_pkg)
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg' for CMake module files
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg' for CMake config files
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_launch_pkg', 'cmake_prefix_path')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/hook/cmake_prefix_path.ps1'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/hook/cmake_prefix_path.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/hook/cmake_prefix_path.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/bin'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/lib/pkgconfig/my_launch_pkg.pc'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/lib/python3.10/site-packages'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/bin'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.ps1'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.sh'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.bash'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.zsh'
+[2.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/colcon-core/packages/my_launch_pkg)
+[2.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.084s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.124s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.124s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.124s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.125s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.125s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.125s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayasx9/arl_workshop/turtle_proj1/install/local_setup.ps1'
+[2.127s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayasx9/arl_workshop/turtle_proj1/install/_local_setup_util_ps1.py'
+[2.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayasx9/arl_workshop/turtle_proj1/install/setup.ps1'
+[2.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayasx9/arl_workshop/turtle_proj1/install/local_setup.sh'
+[2.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ayasx9/arl_workshop/turtle_proj1/install/_local_setup_util_sh.py'
+[2.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayasx9/arl_workshop/turtle_proj1/install/setup.sh'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayasx9/arl_workshop/turtle_proj1/install/local_setup.bash'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayasx9/arl_workshop/turtle_proj1/install/setup.bash'
+[2.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ayasx9/arl_workshop/turtle_proj1/install/local_setup.zsh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ayasx9/arl_workshop/turtle_proj1/install/setup.zsh'

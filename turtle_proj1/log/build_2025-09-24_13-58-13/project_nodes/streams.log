@@ -1,0 +1,18 @@
+[0.390s] Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build --no-deps symlink_data
+[0.528s] running develop
+[0.598s] running egg_info
+[0.598s] writing project_nodes.egg-info/PKG-INFO
+[0.598s] writing dependency_links to project_nodes.egg-info/dependency_links.txt
+[0.599s] writing entry points to project_nodes.egg-info/entry_points.txt
+[0.599s] writing requirements to project_nodes.egg-info/requires.txt
+[0.599s] writing top-level names to project_nodes.egg-info/top_level.txt
+[0.600s] reading manifest file 'project_nodes.egg-info/SOURCES.txt'
+[0.600s] writing manifest file 'project_nodes.egg-info/SOURCES.txt'
+[0.601s] running build_ext
+[0.601s] Creating /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project-nodes.egg-link (link to .)
+[0.602s] Installing shape_node script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.602s] Installing turtle_commander script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.602s] 
+[0.602s] Installed /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes
+[0.603s] running symlink_data
+[0.619s] Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes' returned '0': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build --no-deps symlink_data

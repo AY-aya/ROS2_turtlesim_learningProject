@@ -1,0 +1,16 @@
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg//launch/launch_script.py
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/ament_index/resource_index/package_run_dependencies/my_launch_pkg
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/ament_index/resource_index/parent_prefix_path/my_launch_pkg
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.sh
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.dsv
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/path.sh
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/path.dsv
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.bash
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.sh
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.zsh
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.dsv
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.dsv
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/ament_index/resource_index/packages/my_launch_pkg
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig.cmake
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig-version.cmake
+/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.xml

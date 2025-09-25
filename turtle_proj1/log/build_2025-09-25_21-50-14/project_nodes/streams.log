@@ -1,0 +1,20 @@
+[0.611s] Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build --no-deps symlink_data --force
+[0.791s] running develop
+[0.896s] running egg_info
+[0.896s] writing project_nodes.egg-info/PKG-INFO
+[0.896s] writing dependency_links to project_nodes.egg-info/dependency_links.txt
+[0.896s] writing entry points to project_nodes.egg-info/entry_points.txt
+[0.896s] writing requirements to project_nodes.egg-info/requires.txt
+[0.897s] writing top-level names to project_nodes.egg-info/top_level.txt
+[0.898s] reading manifest file 'project_nodes.egg-info/SOURCES.txt'
+[0.899s] writing manifest file 'project_nodes.egg-info/SOURCES.txt'
+[0.900s] running build_ext
+[0.900s] Creating /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project-nodes.egg-link (link to .)
+[0.900s] Installing shape_node script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.901s] Installing turtle_commander script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.901s] 
+[0.901s] Installed /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes
+[0.901s] running symlink_data
+[0.901s] symbolically linking /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/resource/project_nodes -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/ament_index/resource_index/packages
+[0.902s] symbolically linking /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/package.xml -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes
+[0.921s] Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes' returned '0': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build --no-deps symlink_data --force

@@ -1,0 +1,22 @@
+[0.154s] Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble /usr/bin/cmake --build /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg -- -j12 -l12
+[0.176s] Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg' returned '0': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble /usr/bin/cmake --build /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg -- -j12 -l12
+[0.185s] Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble /usr/bin/cmake --install /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg
+[0.191s] -- Install configuration: ""
+[0.192s] -- Execute custom install script
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg//launch/launch_script.py
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/ament_index/resource_index/package_run_dependencies/my_launch_pkg
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/ament_index/resource_index/parent_prefix_path/my_launch_pkg
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.sh
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/ament_prefix_path.dsv
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/path.sh
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/environment/path.dsv
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.bash
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.sh
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.zsh
+[0.193s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/local_setup.dsv
+[0.193s] -- Symlinking: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.dsv
+[0.197s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/ament_index/resource_index/packages/my_launch_pkg
+[0.198s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig.cmake
+[0.198s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/cmake/my_launch_pkgConfig-version.cmake
+[0.198s] -- Up-to-date symlink: /home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg/share/my_launch_pkg/package.xml
+[0.200s] Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg' returned '0': AMENT_PREFIX_PATH=/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/arl_workshop/turtle_proj1/install/my_launch_pkg:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes:/home/ayasx9/ros2_proj1/install/my_turtle_proj:/opt/ros/humble /usr/bin/cmake --install /home/ayasx9/arl_workshop/turtle_proj1/build/my_launch_pkg

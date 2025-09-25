@@ -1,0 +1,40 @@
+[0.354s] Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build
+[0.512s] running develop
+[0.584s] Removing /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project-nodes.egg-link (link to .)
+[0.609s] Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes' returned '0': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build
+[0.611s] Invoking command in '/home/ayasx9/arl_workshop/turtle_proj1/src/project_nodes': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_nodes build --build-base /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build install --record /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/install.log --single-version-externally-managed install_data --force
+[0.737s] running egg_info
+[0.738s] writing ../../build/project_nodes/project_nodes.egg-info/PKG-INFO
+[0.744s] writing dependency_links to ../../build/project_nodes/project_nodes.egg-info/dependency_links.txt
+[0.744s] writing entry points to ../../build/project_nodes/project_nodes.egg-info/entry_points.txt
+[0.744s] writing requirements to ../../build/project_nodes/project_nodes.egg-info/requires.txt
+[0.744s] writing top-level names to ../../build/project_nodes/project_nodes.egg-info/top_level.txt
+[0.745s] reading manifest file '../../build/project_nodes/project_nodes.egg-info/SOURCES.txt'
+[0.747s] writing manifest file '../../build/project_nodes/project_nodes.egg-info/SOURCES.txt'
+[0.755s] running build
+[0.755s] running build_py
+[0.755s] copying project_nodes/turtle_commander.py -> /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes
+[0.755s] copying project_nodes/shape_node.py -> /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes
+[0.755s] running install
+[0.755s] running install_lib
+[0.755s] creating /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes
+[0.755s] copying /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes/turtle_commander.py -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes
+[0.755s] copying /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes/temp2.py -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes
+[0.755s] copying /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes/temp.py -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes
+[0.756s] copying /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes/__init__.py -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes
+[0.756s] copying /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build/lib/project_nodes/shape_node.py -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes
+[0.756s] byte-compiling /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes/turtle_commander.py to turtle_commander.cpython-310.pyc
+[0.756s] byte-compiling /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes/temp2.py to temp2.cpython-310.pyc
+[0.756s] byte-compiling /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes/temp.py to temp.cpython-310.pyc
+[0.759s] byte-compiling /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes/__init__.py to __init__.cpython-310.pyc
+[0.759s] byte-compiling /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes/shape_node.py to shape_node.cpython-310.pyc
+[0.759s] running install_data
+[0.759s] copying resource/project_nodes -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/ament_index/resource_index/packages
+[0.759s] copying package.xml -> /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/share/project_nodes
+[0.759s] running install_egg_info
+[0.760s] Copying ../../build/project_nodes/project_nodes.egg-info to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages/project_nodes-0.0.0-py3.10.egg-info
+[0.762s] running install_scripts
+[0.773s] Installing shape_node script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.773s] Installing turtle_commander script to /home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/project_nodes
+[0.773s] writing list of installed files to '/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/install.log'
+[0.787s] Invoked command in '/home/ayasx9/arl_workshop/turtle_proj1/src/project_nodes' returned '0': PYTHONPATH=/home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayasx9/arl_workshop/turtle_proj1/install/project_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project_nodes build --build-base /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/build install --record /home/ayasx9/arl_workshop/turtle_proj1/build/project_nodes/install.log --single-version-externally-managed install_data --force

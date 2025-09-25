@@ -1,0 +1,4 @@
+[console_scripts]
+shape_node = project_nodes.shape_node:main
+turtle_commander = project_nodes.turtle_commander:main
+
