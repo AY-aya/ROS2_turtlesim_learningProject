@@ -8,9 +8,9 @@ The goal is to practice core ROS2 concepts such as nodes, topics, services, and 
 ## Features
 - Draws different shapes using parametric equations:
   -  Star
-  -  Infinity loop
-  -  Flower (rose curves)
-  -  Butterfly curve
+  -  Leaf
+  -  Flower 
+  -  Butterfly 
 - Supports commands:
   - clear → clears the screen and re-centers the turtle
   - stop → stops the turtle mid-drawing
