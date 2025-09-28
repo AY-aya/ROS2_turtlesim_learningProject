@@ -4,9 +4,6 @@ This project is a ROS2 learning exercise built around the classic package.
 The goal is to practice core ROS2 concepts such as nodes, topics, services, and launch files, through drawing fun mathematical shapes.
 
 ## Demo
-
-## Demo
-
 <video src="https://github.com/user-attachments/assets/a7841d04-5ff3-4973-bf3c-0b84f7433fac">
 </video>
 
